@@ -12,23 +12,17 @@
         <label for="email">Email</label>
       </div>
       <input type="text" id="email" name="email-address" />
+
       <div>
         <label for="why-coding">Why is coding cool?</label>
       </div>
-      <select name="why-coding-is-cool">
-        <option id="select-option" value="select" selected="selected">
-          <label for="select-option">Select an option</label>
-        </option>
-        <option id="its-interesting" value="interesting">
-          <label for="its-interesting">Becuase it's interesting</label>
-        </option>
-        <option id="its-fun" value="fun">
-          <label for="its-fun">Becuase it's fun</label>
-        </option>
-        <option id="its-powerful" value="powerful">
-          <label for="its-powerful">Becuase it's powerful</label>
-        </option>
+      <select id="why-coding" name="why-coding-is-cool">
+        <option value="select" selected="selected">Select an option</option>
+        <option value="interesting">Becuase it's interesting</option>
+        <option value="fun">Becuase it's fun</option>
+        <option value="powerful">Becuase it's powerful</option>
       </select>
+
       <div>Favorite Language (choose one)</div>
       <input id="html" type="radio" name="favorite-language" value="html" />
       <label for="html">HTML</label>
@@ -40,13 +34,16 @@
         name="favorite-language"
         value="javascript" />
       <label for="javascript">JavaScript</label>
+
       <div>Would you like to sign up for more information?</div>
       <input id="sign-up" type="checkbox" name="sign-up" value="sign-me-up" />
       <label for="sign-up">Sign me up!</label>
+
       <div>
         <label for="comments">Comments</label>
       </div>
       <textarea id="comments" name="comments" cols="25" rows="10"></textarea>
+
       <div>
         <input type="submit" name="submit" value="Submit" />
       </div>
