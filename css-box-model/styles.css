@@ -3,7 +3,8 @@ button.language {
   background-color: lightgray;
 
   /* your code here 👇 */
-  margin: 0 12px;
+  margin-left: 12px;
+  margin-right: 12px;
   padding: 6px 16px;
   border-radius: 6px;
 }
