@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 36pt;
+}
+
+h2 {
+  font-family: 'Barlow Condensed',  sans-serif;
+  font-style: italic;
+  font-size: 25pt;
+}
+
+p {
+  font-family: 'Prompt', sans-serif;
+  line-height: 30px;
+}
