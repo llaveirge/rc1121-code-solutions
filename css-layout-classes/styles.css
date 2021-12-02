@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-thirds {
+  flex-basis: calc(100% / 3 * 2);
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: sans-serif, serif;
+}
+
+h2 {
+  font-family: sans-serif, serif;
+}
+
+p {
+  font-family: sans-serif, serif;
+}
