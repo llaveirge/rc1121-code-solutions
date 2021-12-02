@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url('BrandonGrotesque-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque-Regular';
+  src: url('BrandonGrotesque-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk-Light-Web';
+  src: url('AtlasGrotesk-Light-Web.woff2');
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk-Medium-Web';
+  src: url('AtlasGrotesk-Medium-Web.woff2');
+}
+
+fieldset {
+  display: inline;
+  border: hidden;
+  width: 60%;
+}
+
+legend {
+  font-family: 'BrandonGrotesque-Medium', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: salmon;
+  font-size: 120%;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-field-name {
+  font-family: 'BrandonGrotesque-Regular', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 0.5rem;
+  padding-top: 10px;
+}
+
+#name::placeholder {
+  font-family: 'AtlasGrotesk-Light-Web', sans-serif;
+}
+
+#email::placeholder {
+  font-family: 'AtlasGrotesk-Light-Web', sans-serif;
+}
+
+#location::placeholder {
+  font-family: 'AtlasGrotesk-Light-Web', sans-serif;
+}
+
+select {
+  font-family: 'BrandonGrotesque-Regular', sans-serif;
+  background-color: lightgray;
+  text-align: justify;
+  border-radius: 0.5rem;
+  border-width: thin;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-family: 'BrandonGrotesque-medium', sans-serif;
+  background-color: salmon;
+  border: hidden;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+input {
+  border-radius: 0.3rem;
+  border-width: thin;
+  padding: 10px;
+  width: 100%;
+}
+
+.input {
+  text-align: justify;
+}
+
+.select-input {
+  text-align: justify;
+}
+
+.button {
+  text-align: right;
+}
