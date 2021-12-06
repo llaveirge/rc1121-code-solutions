@@ -1,0 +1,229 @@
+body {
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: #6e6e6e;
+}
+
+.container {
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.column-full {
+  flex-basis: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.left-col {
+  padding-left: 4.5rem;
+}
+
+.right-col {
+  padding-right: 4.5rem;
+}
+
+.heading-h1 {
+  font-family: "Tiempos Headline", serif;
+  color: white;
+  font-weight: 500;
+  font-size: 2.35rem;
+}
+
+.heading-h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.heading-h3 {
+  font-size: 1.25rem;
+  font-weight: 500; /* Due to rendering differences, I can't tell what weight this should text should be */
+  padding-bottom: 0.9rem;
+}
+
+.header-p {
+  color: white;
+  line-height: 1.5rem;
+  margin-bottom: 1.9rem;
+}
+
+.menu {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: solid thin #e7e9ec;
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  padding-left: 4.5rem;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-right: 3.1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-option {
+  display: inline-block;
+  background-color: white;
+  color: #a0a0a0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button {
+  background-color: #294464;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #294464;
+}
+
+.contact-us {
+  height: 42px;
+  width: 115px;
+}
+
+img.blue-logo {
+  width: 143px;
+  padding-top: 0.5rem;
+}
+
+.hero-heading {
+  background-image:
+    linear-gradient(rgba(102, 99, 99, 0.45), rgba(102, 99, 99, 0.45)),
+    url(images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 550px;
+  width: 100%;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.header-text {
+  position: relative;
+  left: 4.6rem;
+  top: 4.5rem;
+}
+
+.get-started {
+  width: 197px;
+  height: 57px;
+  font-size: 1.2rem;
+}
+
+.locations {
+  text-align: center;
+  line-height: 1.5rem;
+  background-color: #fafafa;
+  padding-top: 2.9rem;
+  padding-bottom: 4rem;
+  border-bottom: solid thin #e7e9ec;
+}
+
+.locations-p {
+  padding-bottom: 2.9rem;
+}
+
+.align-right-pad {
+  margin: auto;
+  text-align: right;
+  padding-right: 4.5rem;
+}
+
+.align-left-pad {
+  padding-left: 4.5rem;
+}
+
+.c-t-a-h2 {
+  margin-bottom: 1rem;
+}
+
+.padding-c-t-a {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.address {
+  font-style: normal;
+  color: white;
+  line-height: 1.55rem;
+  padding-left: 4.5rem;
+  flex-basis: 65%;
+}
+
+.footer {
+  background-color: #525351;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  height: 438px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+
+img.white-logo {
+  width: 143px;
+  padding-top: 20%;
+}
+
+.col-reset {
+  display: flex;
+  margin: auto;
+  padding-right: 4.5rem;
+}
+
+.footer-menu {
+  list-style-type: none;
+  color: white;
+  padding-left: 1rem;
+  flex-basis: 50%;
+}
+
+.footer-option {
+  padding-bottom: 1rem;
+}
+
+.half-basis {
+  flex-basis: 50%;
+}
+
+.bottom-border {
+  padding-left: 4.5rem;
+  gap: 40px;
+  height: 130px;
+}
+
+.bottom-p {
+  font-size: 18px;
+
+  /* Due to rendering differences, I can't tell what weight this should text should be */
+}
