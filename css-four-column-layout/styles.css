@@ -1,0 +1,40 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #f6f7f9;
+  text-align: center;
+}
+
+.row {
+  width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 1.35rem;
+}
+
+.one-fourth {
+  flex-basis: 25%;
+}
+
+.page-heading {
+  font-size: 1.6rem;
+}
+
+.feature-heading {
+  font-size: 18px;
+}
+
+.img {
+  width: 1rem;
+}
+
+.icon {
+  display: flex;
+  width: 25px;
+  flex-basis: 5%;
+}
+
+.description {
+  padding-top: 1.5rem;
+  font-size: 14px;
+}
