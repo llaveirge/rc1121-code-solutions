@@ -1,0 +1,104 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-one-fifth {
+  display: flex;
+  flex-basis: 20%;
+  justify-content: center;
+}
+
+.img-container {
+  position: relative;
+  height: 350px;
+  width: 190px;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.free-people {
+  background-image: url(images/dress1.jpeg);
+}
+
+.ysl {
+  background-image: url(images/ysl-bag.jpeg);
+}
+
+.tiffany-key {
+  background-image: url(images/key.jpeg);
+}
+
+.lv-clutch {
+  background-image: url(images/lv-bag.jpg);
+}
+
+.reformation-dress {
+  background-image: url(images/dress2.jpeg);
+}
+
+.left-align {
+  justify-content: flex-start;
+  padding-left: 0.5rem;
+  height: 35px;
+}
+
+.size {
+  color: #d5d5d5;
+  border-color: #d5d5d5;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 5px;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.sale-price {
+  color: black;
+  background-color: #fdf2e8;
+  border-style: hidden;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.price {
+  color: #d5d5d5;
+}
