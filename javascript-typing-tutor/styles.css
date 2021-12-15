@@ -1,0 +1,38 @@
+body {
+  font-family: courier, serif;
+  min-width: 630px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13rem;
+}
+
+.active {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+.correct {
+  color: #1acd1d;
+}
+
+.incorrect {
+  color: #f80606;
+  border-bottom-style: solid;
+  border-bottom-color: #f80606;
+}
+
+.accuracy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accuracy {
+  text-align: center;
+  font-weight: 800;
+}
