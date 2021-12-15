@@ -1,0 +1,67 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0.2rem 0.1rem #c2c0c0;
+}
+
+/* open modal button */
+
+.button-container {
+  padding: 1rem;
+}
+
+.open-button {
+  background-color: #4a4ae9;
+  color: white;
+  padding: 0.5rem 2rem;
+}
+
+/* Modal container and modal text */
+
+#modal-container.hidden {
+  display: none;
+}
+
+#modal-container.shaded-background {
+  display: flex;
+}
+
+#modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: rgb(0 0 0 / 80%);
+}
+
+.modal {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  padding: 2rem;
+}
+
+.modal-text {
+  padding-bottom: 1.5rem;
+}
+
+/* Modal button */
+
+.no-survey {
+  background-color: #eb5d5d;
+  width: 100px;
+  padding: 0.5rem 1rem;
+}
