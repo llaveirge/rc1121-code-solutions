@@ -1,9 +1,5 @@
 var $userList = document.getElementById('user-list');
 
-// var xhr = new XMLHttpRequest();
-// xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
-// xhr.responseType = 'json';
-
 var xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
 xhr.responseType = 'json';
@@ -23,5 +19,3 @@ xhr.addEventListener('load', function () {
 });
 
 xhr.send();
-
-// xhr.addEventListener('load', loadHandler);
