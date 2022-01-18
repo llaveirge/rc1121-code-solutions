@@ -1,0 +1,256 @@
+    1  git config --global user.name "Lindsey Laveirge"
+    2  git config --global user.email "llaveirge@gmail.com"
+    3  git config --global --list
+    4  pwd
+    5  cd ~/repos/ajax-project
+    6  http GET https://collectionapi.metmuseum.org/public/collection/v1/objects/435878
+    7  git status
+    8  git add js/main.js
+    9  git status
+   10  git commit -m "Define a 'getObjectInfo' function that creates a 'new XMLHttpRequest()' object and save it to a variable, 'open()' the object to send a 'GET' request to The Met museum's API, listen for 'load' event and add object data from the response to a new object literal, and make sure that the object literal contains the appropriate information compared to the Ajax responses. #2"
+   11  git push origin issue-2-view-4-random-objects
+   12  git status
+   13  git add js/main.js
+   14  git status
+   15  git commit -m "Add the object literal to the museum object information array. #2"
+   16  git push origin issue-2-view-4-random-objects
+   17  git status
+   18  git add js/main.js
+   19  git status
+   20  git commit -m "Loop through the storage array and call the 'getObjectInfo' function for each item in the array. #2"
+   21  git push origin issue-2-view-4-random-objects
+   22  git status
+   23  git add js/main.js
+   24  git commit -m "Add loop, randomize, and getObjectInfo functions to the 'submit' event handler. #2"
+   25  git push origin issue-2-view-4-random-objects
+   26  git status
+   27  git add js/data.js
+   28  git status
+   29  git commit -m "Verify the four randomized museum objects are saved to the data model and the museum object information array. #2"
+   30  git push origin issue-2-view-4-random-objects
+   31  git status
+   32  git add js/data.js
+   33  git add js/main.js
+   34  git status
+   35  git commit -m "Define a function that takes a randomized museum object and returns a DOM tree that matches one of the test museum object examples in the HTML. #2"
+   36  git status
+   37  git add js/main.js
+   38  git status
+   39  git commit -m "Define a function that takes a randomized museum object and returns a DOM tree that matches one of the test museum object examples in the HTML. #2"
+   40  git push origin issue-2-view-4-random-objects
+   41  git status
+   42  git add js/main.js
+   43  git status
+   44  git commit -m "Use a loop to create a DOM tree for each of the four randomized museum objects in the data model and append it to the page ul when the 'DOMContentLoaded' event is fired. #2"
+   45  git push origin issue-2-view-4-random-objects
+   46  git status
+   47  git add index.html
+   48  git status
+   49  git commit -m "Remove test examples from the HTML once the randomized museum objects are successfully being appended to the DOM on page load. #2"
+   50  git push origin issue-2-view-4-random-objects
+   51  git status
+   52  git add js/main.js
+   53  git status
+   54  git commit -m "Verify that searching keyword or phrase creates a DOM tree for all four randomized objects and adds them to the page. #2"
+   55  git push origin issue-2-view-4-random-objects
+   56  git status
+   57  git add index.html
+   58  git add js/data.js
+   59  git add js/main.js
+   60  git status
+   61  git commit -m "Verify that searching keyword or phrase automatically shows the 'discoveries' view without reloading the page, and verify that freshing the page shows the same view as before refreshing. #2"
+   62  git push origin issue-2-view-4-random-objects
+   63  pwd
+   64  owd
+   65  pwd
+   66  cd ~/repos/ajax-project
+   67  git pull origin master
+   68  git branch issue-3-user-can-add-to-must-see-list
+   69  git switch issue-3-user-can-add-to-must-see-list
+   70  git status
+   71  git commit -m "Add a sibling div element with a 'data-view' attribute with a value of 'must-see' to the HTML, and add an empty unordered list to the div element'
+   72  git commit -m "Add a sibling div element with a 'data-view' attribute with a value of 'must-see' to the HTML, and add an empty unordered list to the div element'
+   73  q
+   74  git statis
+   75  quit
+   76  git status
+   77  git quit
+   78  cd ~/repos/ajax-project
+   79  git status
+   80  git add index.html
+   81  git commit -m "Add a sibling div element with a 'data-view' attribute with a value of 'must-see' to the HTML, and add an empty unordered list to the div element"
+   82  git status
+   83  git add css/layout.css
+   84  git add js/main.js
+   85  git status
+   86  git commit -m "Edit the 'searchEventHandler' function to begin every search with empty 'objIdArr', 'randomObjIds', 'randomObjInfo' arrays and an empty 'searchObjects' property in the data model #3"
+   87  git push origin issue-3-user-can-add-to-must-see-list
+   88  git status
+   89  git add js/main.js
+   90  git status
+   91  git commit -m "Ensure that only the current search objects are appended to the DOM. #3"
+   92  git push origin issue-3-user-can-add-to-must-see-list
+   93  git switch master
+   94  git switch issue-3-user-can-add-to-must-see-list
+   95  cd ~/repos
+   96  git clone git@github.com:llaveirge/week-planner.git
+   97  cd ~/repos/week-planner
+   98  npm ci
+   99  git status
+  100  git add .
+  101  git commit -m "Yay some HTML"
+  102  git push origin master
+  103  git pull origin master
+  104  git status
+  105  git add .
+  106  git status
+  107  git commit -m "Style modal"
+  108  git push origin master
+  109  git pull origin master
+  110  git status
+  111  git add .
+  112  git status
+  113  git commit -m "Add and style table, and local storage save"
+  114  git push origin master
+  115  git pull origin master
+  116  git status
+  117  git pull origin master
+  118  git status
+  119  git add .
+  120  git commit -m "SORT THE TABLE!"
+  121  git add.
+  122  git add .
+  123  git status
+  124  git commit -m "SORT THE TABLE!"
+  125  git push origin master
+  126  cd repos/ajax-project
+  127  cd ajax-project
+  128  cd /repos/ajax-project
+  129  cd /ajax-project
+  130  cd ~/repos/ajax-project
+  131  git status
+  132  git log
+  133  git status
+  134  git add js/main.js
+  135  git status
+  136  git commit -m "Listen for clicks on the discoveries 'ul' and if the plus icon is clicked replace the plus icon with a checkmark icon indicating the object has been added."
+  137  git push origin issue-3-user-can-add-to-must-see-list
+  138  git status
+  139  git add js/main.js
+  140  git status
+  141  git commit -m "Listen for clicks on on the discoveries 'ul' and if the plus sign is clicked, add the 'nextObjId' to the object's information"
+  142  git commit --amend -m "Listen for clicks on the discoveries 'ul' and if the plus sign is clicked, add the 'nextObjId' to the object's information. #3"
+  143  git push origin issue-3-user-can-add-to-must-see-list
+  144  git status
+  145  git add js/main.js
+  146  git status
+  147  git commit -m "Listen for clicks on the discoveries 'ul' and if the plus is clicked, increment the nextObjId on the data model. #3"
+  148  git push origin issue-3-user-can-add-to-must-see-list
+  149  git status
+  150  git add js/main.js
+  151  git status
+  152  git commit -m "Listen for clicks on the discoveries 'ul' and if the plus is clicked, prepend the object information to the 'saved' property of the data model. #3"
+  153  git push origin issue-3-user-can-add-to-must-see-list
+  154  cd ~/repos
+  155  cd ~/repos/rc1121-code-solutions
+  156  pwd
+  157  git pull origin master
+  158  git branch es6-const-let
+  159  git switch es6-const-let
+  160  git status
+  161  git add es6-const-let/
+  162  git status
+  163  git commit -m "Completed es6-const-let exercise. -Lindsey Laveirge"
+  164  git push origin es6-const-let
+  165  git pull origin es6-const-let
+  166  git switch master
+  167  git pull origin master
+  168  git branch es6-template-literals
+  169  git switch es6-template-literals
+  170  git status
+  171  git add es6-template-literals/
+  172  git status
+  173  git commit -m "Completed es6-template-literals exercise. -Lindsey Laveirge"
+  174  git push origin es6-template-literals
+  175  git switch master
+  176  git pull origin master
+  177  git branch es6-destructuring
+  178  git switch es6-destructuring
+  179  git status
+  180  git add index.html
+  181  git status
+  182  git commit -m "Completed es6-destructuring. -Lindsey Laveirge"
+  183  git push origin es6-destructuring
+  184  git switch master
+  185  git pull origin master
+  186  git branch es6-arrow-functions
+  187  git switch es6-arrow-functions
+  188  git status
+  189  git add es6-arrow-functions/
+  190  git commit -m "Completed es6-arrow-functions exercise. -Lindsey Laveirge"
+  191  git push origin es6-arrow-functions
+  192  git switch master
+  193  git pull origin master
+  194  git branch command-line-basics
+  195  git switch command-line-basics
+  196  cd command-line-basics
+  197  pwd
+  198  man man
+  199  man cat
+  200  cat laziness.txt
+  201  cat impatience.txt
+  202  cat hubris.txt
+  203  cat laziness.txt impatience.txt hubris.txt
+  204  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  205  cat three-virtues.txt
+  206  man ls
+  207  ls
+  208  ls -a
+  209  ls -F
+  210  ls -aF lfz-staff > lfz-staff/contents.txt
+  211  cat lfz-staff/contents.txt
+  212  man.pwd
+  213  man pwd
+  214  pwd
+  215  pwd > i-was-here.txt
+  216  cat i-was-here.txt
+  217  ls
+  218  man echo
+  219  echo 'Hello, World!'
+  220  echo 'Hello, World!' > hello.txt
+  221  ls
+  222  cat hello.txt
+  223  man touch 
+  224  touch tag-youre-it.txt
+  225  touch snoot/boop.txt
+  226  ls
+  227  ls snoot
+  228  man mkdir
+  229  mkdir parent
+  230  ls
+  231  mkdir -p parent/child/grandchild
+  232  ls
+  233  lsparent
+  234  ls parent
+  235  ls parent/child
+  236  touch parent/child/grandchild/.gitkeep
+  237  ls -a parent/child/grandchild
+  238  ls parent
+  239  ls parent/child
+  240  ls parent/child/grandchild
+  241  ls -a parent/child/grandchild
+  242  man mv
+  243  mv pokiemans pokemon
+  244  ls
+  245  man rm
+  246  rm lol.txt
+  247  ls
+  248  rm -r kill-me/
+  249  ls
+  250  man cp
+  251  cp and-then.txt no-and-then.txt
+  252  ls
+  253  cat and-then.txt no-and-then.txt
+  254  man history
+  255  history
+  256  history > command-history.txt
