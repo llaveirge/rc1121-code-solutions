@@ -21,13 +21,14 @@ const grades = {
   }
 };
 
-// Store grade objects in array:
-const gradesArr = [];
-for (var curId in grades) {
-  gradesArr.push(grades[curId]);
-}
-
 app.get('/api/grades', (req, res) => {
+
+  // Store grade objects in array:
+  const gradesArr = [];
+  for (var curId in grades) {
+    gradesArr.push(grades[curId]);
+  }
+
   res.send(gradesArr);
 });
 
