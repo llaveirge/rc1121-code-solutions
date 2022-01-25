@@ -1,0 +1,14 @@
+{
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "package for express-hello-world exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lindsey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
