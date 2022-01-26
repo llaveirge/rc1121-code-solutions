@@ -1,0 +1,41 @@
+{
+  "nextId": 18,
+  "notes": {
+    "2": {
+      "id": 2,
+      "content": "The event loop, this, closures, and prototypal inheritance are special about JavaScript."
+    },
+    "5": {
+      "id": 5,
+      "content": "In JavaScript, the value of `this` is determined when a function is called; not when it is defined."
+    },
+    "6": {
+      "id": 6,
+      "content": "A closure is formed when a function retains access to variables in its lexical scope."
+    },
+    "9": {
+      "content": "When you create an object or array, you assign the array or object literal to the identifier, in destructuring, you assign the objects reference identifier to the property variables.",
+      "id": 9
+    },
+    "11": {
+      "content": "Express is a routing and middleware web framework that has minimal functionality of its own: An Express application is essentially a series of middleware function calls",
+      "id": 11
+    },
+    "12": {
+      "content": "File operations using the fs module are asynchronous.",
+      "id": 12
+    },
+    "15": {
+      "content": "The fs module in included in Node.js for file system manipulation.",
+      "id": 15
+    },
+    "16": {
+      "content": "npm is the world's largest software registry that allows JavaScript developers to share code they created to solve specific problems and allows other developers to use that code.",
+      "id": 16
+    },
+    "17": {
+      "content": "In JavaScript, a module is a single .js file, which contains code for a specific task",
+      "id": 17
+    }
+  }
+}
