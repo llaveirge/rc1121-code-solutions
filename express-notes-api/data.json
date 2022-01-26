@@ -1,5 +1,5 @@
 {
-  "nextId": 17,
+  "nextId": 18,
   "notes": {
     "2": {
       "id": 2,
@@ -32,6 +32,10 @@
     "16": {
       "content": "npm is the world's largest software registry that allows JavaScript developers to share code they created to solve specific problems and allows other developers to use that code.",
       "id": 16
+    },
+    "17": {
+      "content": "In JavaScript, a module is a single .js file, which contains code for a specific task",
+      "id": 17
     }
   }
 }

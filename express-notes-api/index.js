@@ -13,8 +13,7 @@ app.get('/api/notes', (req, res) => {
   for (const curNote in notes) {
     notesArray.push(notes[curNote]);
   }
-
-  res.status(200).json(notesArray);
+  res.json(notesArray);
 });
 
 // request a specific note:
@@ -26,7 +25,7 @@ app.get('/api/notes/:id', (req, res) => {
   } else if (id in notes === false) {
     res.status(404).json({ error: `cannot find note with id ${id}` });
   } else {
-    res.status(200).json(notes[id]);
+    res.json(notes[id]);
   }
 });
 
@@ -35,7 +34,7 @@ app.post('/api/notes', (req, res) => {
   const newNote = req.body;
 
   // verify that content is included:
-  if (Object.keys(newNote).length === 0) {
+  if (!newNote.content) {
     res.status(400).json({ error: 'content is a required field' });
     return;
   }
@@ -88,7 +87,7 @@ app.put('/api/notes/:updateId/', (req, res) => {
     res.status(400).json({ error: 'id must be a positive integer' });
   } else if (updateId in notes === false) {
     res.status(404).json({ error: `cannot find note with id ${updateId}` });
-  } else if (Object.keys(updateNote).length === 0) {
+  } else if (!updateNote.content) {
     res.status(400).json({ error: 'content is a required field' });
   } else {
     // Once verified, update note and data.json:
@@ -99,7 +98,7 @@ app.put('/api/notes/:updateId/', (req, res) => {
         console.error(err);
         res.status(500).json({ error: 'An unexpected error occurred.' });
       } else {
-        res.status(200).json(updateNote);
+        res.json(updateNote);
       }
     });
   }
