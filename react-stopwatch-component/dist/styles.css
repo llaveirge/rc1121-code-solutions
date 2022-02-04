@@ -1,0 +1,26 @@
+.container {
+  margin: 2rem auto;
+  width: fit-content;
+}
+
+.watch {
+  padding: 0;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 110px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-family: fantasy;
+}
+
+.button {
+  padding: 1rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
