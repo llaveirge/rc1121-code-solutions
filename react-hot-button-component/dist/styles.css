@@ -1,0 +1,41 @@
+.button {
+  border-radius: 5px;
+  padding: 2rem 2.5rem;
+  font-size: 2rem;
+  filter: drop-shadow(8px 10px 4px rgb(68 64 64));
+}
+
+.click-0 {
+  background-color: black;
+  color: white;
+}
+
+.click-3 {
+  background-color: #351c75;
+  color: white;
+}
+
+.click-6 {
+  background-color: #674ea7;
+  color: white;
+}
+
+.click-9 {
+  background-color: #e06666;
+  color: white;
+}
+
+.click-12 {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.click-15 {
+  background-color: #ff0;
+  color: black;
+}
+
+.click-18 {
+  background-color: white;
+  color: black;
+}
