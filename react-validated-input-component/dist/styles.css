@@ -1,0 +1,35 @@
+input {
+  margin: 0.3rem 0;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: red;
+}
+
+label {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+i {
+  padding-left: 1rem;
+  vertical-align: middle;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+.fa-lg {
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}
