@@ -33,13 +33,11 @@ class AppDrawer extends React.Component {
   handleIconClick() {
     this.modalContClass = 'on-screen';
     this.setState({ modal: true });
-
   }
 
   handleModalClick(event) {
     this.modalContClass = null;
     this.setState({ modal: false });
-
   }
 
   render() {
@@ -59,7 +57,6 @@ class AppDrawer extends React.Component {
       </div>
     );
   }
-
 }
 
 export default AppDrawer;
