@@ -53,7 +53,6 @@ export default class App extends React.Component {
         this.setState({ todos: updatedList });
       })
       .catch(err => console.error('Fetch failed', err));
-
   }
 
   toggleCompleted(todoId) {
@@ -87,10 +86,10 @@ export default class App extends React.Component {
     })
       .then(response => response.json())
       .then(newStatus => {
-        const oldList = this.state.todos;
-        const updatedStatusList = Object.assign(oldList, newStatus);
-        this.setState({ todos: updatedStatusList });
-        this.componentDidMount();
+        const updatedList = this.state.todos.map(oldList => {
+          return oldList.todoId === newStatus.todoId ? newStatus : oldList;
+        });
+        this.setState({ todos: updatedList });
       })
       .catch(err => console.error('Fetch failed', err));
   }
