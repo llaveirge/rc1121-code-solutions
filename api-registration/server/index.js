@@ -43,10 +43,9 @@ app.post('/api/auth/sign-up', (req, res, next) => {
     values ($1, $2)
     returning "createdAt", "userId", "username"
   `;
-  const params = [username];
   argon2.hash(password)
     .then(hashedPassword => {
-      params.push(hashedPassword);
+      const params = [username, hashedPassword];
       db.query(sql, params)
         .then(result => {
           const [newUser] = result.rows;
@@ -54,9 +53,7 @@ app.post('/api/auth/sign-up', (req, res, next) => {
         })
         .catch(err => next(err));
     })
-    .catch(err => {
-      console.error(err);
-    });
+    .catch(err => next(err));
 });
 
 app.use(errorMiddleware);
