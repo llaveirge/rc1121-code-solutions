@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  background-image: url("https://www.nicepng.com/png/detail/118-1180980_skyrim-icon-image-elder-scrolls-v-skyrim-logo.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -20%;
+}
+
+h2 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+
+i {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.option {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.option:hover {
+  background-color: rgb(128 128 128 / 40.4%);
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  left: 3rem;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  transition: all 0.3s linear;
+}
+
+.modal-content-container {
+  background-color: white;
+  box-shadow: 1px 5px 5px #292929;
+  position: fixed;
+  height: 100%;
+  left: -17rem;
+  transition: all 0.3s linear;
+}
+
+.on-screen {
+  transform: translateX(17rem);
+}
+
+.open {
+  background-color: rgb(54 54 54 / 52%);
+}
+
+.closed {
+  background-color: rgb(54 54 54 / 0%);
+}
