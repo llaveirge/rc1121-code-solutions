@@ -1,10 +1,12 @@
 /* exported countValues */
 
 function countValues(stack) {
+  const array = [];
   if (stack.peek() !== undefined) {
-    const array = stack.print().split('<-');
+    while (stack.peek() !== undefined) {
+      array.push(stack.pop());
+    }
     return array.length;
-  } else {
-    return 0;
   }
+  return 0;
 }
